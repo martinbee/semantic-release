@@ -3,7 +3,7 @@
   "description": "Test of semantic release. Not a valid package. Will be unpublished.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "success",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "",
